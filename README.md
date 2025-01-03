@@ -16,6 +16,8 @@ BitBlog ("weblog") es un sencillo diario en línea que puede ser gestionado por 
 
 Los posts se presentan en orden cronológico inverso y está escrito con PHP 8.1.
 
+Este proyecto fue adaptado al español por **Sebastián Tixilema** y su uso fue ajustado para un sistema de blogs para las clases de **Desarrollo Asistido por Software** en la universidad.
+
 ## Tecnologías Usadas
 - PHP 8.1.10
 
