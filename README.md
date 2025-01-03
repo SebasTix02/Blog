@@ -1,107 +1,79 @@
 # Bit Blog
-simple PHP blog
+Blog simple en PHP
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+## Tabla de Contenidos
+* [Información General](#información-general)
+* [Tecnologías Usadas](#tecnologías-usadas)
+* [Características](#características)
+* [Capturas de Pantalla](#capturas-de-pantalla)
+* [Configuración](#configuración)
+* [Uso](#uso)
+* [Estado del Proyecto](#estado-del-proyecto)
 
+## Información General
 
-## General Information
+BitBlog ("weblog") es un sencillo diario en línea que puede ser gestionado por una sola persona y proporciona actualizaciones regulares (entradas de blog) sobre diversos temas.
 
-A BitBlog ("weblog") is a simple online journal that can be run by a single person and provides regular updates (blog posts) on various topics.
- 
-and
-presents posts in reverse chronological order , and written with PHP 8.1
+Los posts se presentan en orden cronológico inverso y está escrito con PHP 8.1.
 
-
-
-## Technologies Used
+## Tecnologías Usadas
 - PHP 8.1.10
 
+## Características
+Lista de las características disponibles:
+- Crear, leer, actualizar y eliminar publicaciones.
+- Cambiar el estado (habilitar o deshabilitar).
+- Crear y editar categorías.
+- Ver detalles.
 
+## Capturas de Pantalla
+![captura de pantalla de todas las publicaciones](./assets/images/screenshots/Screenshot-Bit%20Blog%20all%20posts.png)
 
-## Features
-List the ready features here:
-- create , read , update and delete posts
-- Change Status (enable or disable)
-- Create & Edit Categories 
-- View Details
+![captura de pantalla de la categoría de negocios](./assets/images/screenshots/Screenshot-Bussines.png)
 
+![captura de pantalla de la categoría de marketing](./assets/images/screenshots/Screenshot-Marketing%20%26%20social%20media.png)
 
-## Screenshots
-![all posts screenshot](./assets/images/screenshots/Screenshot-Bit%20Blog%20all%20posts.png)
+![captura de pantalla del panel de publicaciones](./assets/images/screenshots/Screenshot-posts.png)
 
-![bussines-category screenshot](./assets/images/screenshots/Screenshot-Bussines.png)
+![captura de pantalla del panel de categorías](./assets/images/screenshots/Screenshot-categories%20.png)
 
-![marketing-category screenshot](./assets/images/screenshots/Screenshot-Marketing%20%26%20social%20media.png)
+## Configuración
+1. Instala XAMPP o WAMPP.
 
-![posts-panel screenshot](./assets/images/screenshots/Screenshot-posts.png)
+2. Abre el panel de control de XAMPP y inicia [Apache] y [MySQL].
 
-![categories-panel screenshot](./assets/images/screenshots/Screenshot-categories%20.png)
+3. Descarga el proyecto desde GitHub (https://github.com/MobinaJafarian/BitBlog)  
+    O sigue los comandos de Git Bash:
 
-
-## Setup
-1. Install XAMPP or WAMPP
-
-2. Open XAMPP Control panal and start [apache] and [mysql] .
-
-3. Download project from github(https://github.com/MobinaJafarian/BitBlog)  
-    OR follow gitbash commands
-    
     i>cd C:\\xampp\htdocs\
     
     ii>git clone https://github.com/MobinaJafarian/BitBlog.git
     
-4. extract files in C:\\xampp\htdocs\.
+4. Extrae los archivos en C:\\xampp\htdocs\.
 
-5. open link localhost/phpmyadmin
+5. Abre el enlace localhost/phpmyadmin.
 
-6. click on new at side navbar.
+6. Haz clic en "Nuevo" en la barra lateral.
 
-7. give a database name as (bit-blog) hit on create button.
+7. Asigna un nombre a la base de datos como (bit-blog) y haz clic en "Crear".
 
-8. after creating database name click on import.
+8. Después de crear la base de datos, haz clic en "Importar".
 
-9. browse the file in directory
-[BitBlog/assets/database/bit-blog.sql].
+9. Busca el archivo en el directorio [BitBlog/assets/database/bit-blog.sql].
 
-10. after importing successfully.
+10. Después de importar correctamente.
 
-11. open any browser and type http://localhost/BitBlog/
+11. Abre cualquier navegador y escribe http://localhost/BitBlog/
 
-12. first register and then login
+12. Primero regístrate y luego inicia sesión.
 
-13. admin login details: 
-- Email = admin@gmail.com 
-- Password = 123456
+13. Detalles de inicio de sesión de administrador:
+- Correo electrónico = admin@gmail.com 
+- Contraseña = 123456
 
-
-## Usage
-
+## Uso
 
 `php -S localhost:8000`
 
-
-## Project Status
-Project is: _complete_ 
-
-
-
-
-
-## Contact
-Created by [@MobinaJafarian](https://github.com/MobinaJafarian) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-
+## Estado del Proyecto
+El proyecto está: _completo_
